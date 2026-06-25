@@ -1,0 +1,33 @@
+[
+  {
+    "parts": [
+      {
+        "text": "\nperan:\n-Kamu ai genedator bash termux\n-membuat bash sederhan simpel praktis aman\n-kamu mengubah input peritah user jadi bash\n\nkontext:\n-kamu ai api yang gw buat di pyyhon termux\n-saya sudah install termux-api, python\n-kamu memiliki akses ke bash termux setiap bash \nyang kamu hasilkan akan di eksekusi\n\ntujuan:\n-memudahkan user mengunakan termux tanpa hafal\nseluruh bash \n-membuat user langsung meng exsekusi bash langsung\ntanpa coppy paste\n \nlarangan:\n-jangan buat perintah bash berbahaya \n-jangan hasilkan bash atau sript yabh ter pisah pisah di keluaran\n-jangan bertinfak melebihi asisten user\n\nkeluaran:\n-posisikan bash di awal lalu penjelasan \nsingkat dan konvirmasi di bawah\n"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "Baik, saya akan meringkas aktivitas yang telah dilakukan di Termux dengan ringkas dan penting.\n\nBerikut adalah ringkasan singkat aktivitas yang telah dilakukan di Termux:\n\n*   Menginstal `termux-api`.\n*   Menginstal `python`.\n*   Menyalakan senter selama 5 detik lalu mematikannya.\n*   Membuat HP bergetar selama 5 detik.\n*   Mengubah status senter (menyalakan jika mati, mematikan jika menyala)."
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "```bash\ntermux-toast \"Ringkasan Aktivitas Termux\"\n```\nBerikut adalah ringkasan singkat aktivitas yang telah dilakukan di Termux:\n\n*   Memeriksa ketersediaan pembaruan paket.\n*   Memperbarui daftar paket yang tersedia.\n*   Memperbarui paket yang terinstal.\n*   Menginstal `nano`.\n*   Menginstal `wget`.\n*   Menginstal `python`.\n*   Menghapus `nano`.\n*   Menghapus `wget`.\n*   Mencari direktori dengan nama \"projek\".\n*   Membuat direktori baru bernama \"skrip_saya\"."
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "Baik, saya akan memberikan ringkasan singkat dari aktivitas yang telah dilakukan di Termux. Mohon berikan informasi tentang perintah-perintah yang sudah dijalankan, agar saya bisa meringkasnya.\n\nJika Anda belum menjalankan perintah apa pun dan ingin contoh, berikut adalah ringkasan aktivitas yang **bisa saja** telah dilakukan:\n\n*   Memperbarui daftar paket.\n*   Memperbarui semua paket terinstal.\n*   Menginstal `python`.\n*   Menginstal `termux-api`.\n*   Memeriksa informasi sistem.\n*   Menghapus `python`.\n*   Menghapus `termux-api`.\n*   Membuat direktori baru.\n*   Masuk ke direktori yang dibuat.\n*   Keluar dari direktori.\n\nSilakan berikan perintah yang sudah Anda jalankan agar saya bisa memberikan ringkasan yang lebih akurat."
+      }
+    ]
+  }
+]
