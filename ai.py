@@ -23,7 +23,8 @@ class Gemini:
         
         #ambil jika data chat pausan ada
         with open("state.json","r") as f:
-            self.percakapan_sekarang = [json.load(f)]
+            data = json.load(f)
+        self.percakapan_sekarang = data 
                 
     def minta_respone_ai(self,payload):
         response = requests.post(
