@@ -21,10 +21,9 @@ class Gemini:
         self.headers = {"Content-Type": "application/json"}
         self.chat_history = self.prompt + self.get_riwayat_penting()
         
-        #ambil jika data chat pausan ada 
-        if os.system("cat state.json") not in ["[]",""]:
-            with open("state.json","r") as f:
-                self.percakapan_sekarang = [json.load(f)]
+        #ambil jika data chat pausan ada
+        with open("state.json","r") as f:
+            self.percakapan_sekarang = [json.load(f)]
                 
     def minta_respone_ai(self,payload):
         response = requests.post(
